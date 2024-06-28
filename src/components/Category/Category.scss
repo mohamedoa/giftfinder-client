@@ -1,0 +1,11 @@
+.category {
+  &__title {
+    display: flex;
+    align-items: center;
+  }
+
+  &__logo {
+    font-size: 3rem;
+    margin-right: 1rem;
+  }
+}
