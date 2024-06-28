@@ -4,7 +4,9 @@ import { Link } from "react-router-dom";
 export default function HomePage() {
   return (
     <>
-      <Link to="/categories">LEGGO</Link>
+      <Link className="leggo" to="/categories">
+        LEGGO
+      </Link>
     </>
   );
 }
