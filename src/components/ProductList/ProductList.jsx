@@ -4,9 +4,8 @@ import "./ProductList.scss";
 function ProductList({ products, status, theme, updateProduct }) {
   return (
     <section className="product-section">
-      <h3 className="product-section__title">{status}</h3>
       {!products.length ? (
-        <h4>No {status} products</h4>
+        <h4>No {status}</h4>
       ) : (
         <ul className="product-list">
           {products

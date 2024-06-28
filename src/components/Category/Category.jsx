@@ -44,12 +44,6 @@ function Category() {
 
   return (
     <>
-      <div>
-        <h2 className="product__title">
-          Here are the best lego sets for kids who like {category.name} !
-        </h2>
-      </div>
-
       <ProductList
         status="Products"
         products={activeProducts}

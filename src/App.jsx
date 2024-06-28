@@ -30,7 +30,7 @@ export default function App() {
     <>
       <BrowserRouter>
         <div className="layout">
-          <CategoryList categories={categories} />
+          <CategoryList className="nav" categories={categories} />
           <main className="main">
             <Routes>
               <Route path="/" Component={HomePage} />
