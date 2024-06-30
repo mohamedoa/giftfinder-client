@@ -45,7 +45,6 @@
     text-decoration: none;
     display: flex;
     flex-direction: column;
-    // margin: 1rem;
     justify-content: center;
   }
 
@@ -60,9 +59,6 @@
     width: 100%;
     object-fit: fill;
     object-position: center;
-
-    // border: solid 1px white;
-
     &:hover {
       transform: scale(1.3);
     }

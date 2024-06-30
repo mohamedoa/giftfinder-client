@@ -1,8 +1,5 @@
 import "./App.scss";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import HomePage from "./pages/HomePage/HomePage";
-import GiftFinder from "./pages/GiftFinder/GiftFinder";
-import NavBar from "./components/NavBar/NavBar";
 import CategoryList from "./components/CategoryList/CategoryList";
 import Category from "./components/Category/Category";
 import axios from "axios";
@@ -30,11 +27,9 @@ export default function App() {
     <>
       <BrowserRouter>
         <div className="layout">
-          <CategoryList className="nav" categories={categories} />
+          <CategoryList categories={categories} />
           <main className="main">
             <Routes>
-              <Route path="/" Component={HomePage} />
-              <Route path="/giftfinder" Component={GiftFinder} />
               <Route path="/categories/:id" element={<Category />} />
             </Routes>
           </main>

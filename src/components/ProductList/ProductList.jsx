@@ -9,7 +9,7 @@ function ProductList({ products, status, theme, updateProduct }) {
       ) : (
         <ul className="product-list">
           {products
-            .sort((a, b) => a.number - b.number)
+            .sort((a, b) => a.price - b.price)
             .map((product) => (
               <Product
                 key={product.id}

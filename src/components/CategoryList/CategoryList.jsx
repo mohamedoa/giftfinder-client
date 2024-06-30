@@ -1,6 +1,5 @@
-// import Category from "../Category/Category";
 import "./CategoryList.scss";
-import { NavLink, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function CategoryList({ categories, status, theme }) {
   if (!categories.length) {
