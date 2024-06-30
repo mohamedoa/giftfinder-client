@@ -118,4 +118,4 @@ Both the client and server require environment variables to be set. Copy the .en
 - **GET /categories**: Retrieve a list of all available categories.
 - **GET /categories/:id/products**: Retrieve details of a specific product by category ID.
 
-Developed during a hackathon by a dedicated team at LEGO and BrainStation. Let's make gift-finding a breeze!
+Developed during a hackathon at BrainStation for LEGO. Let's make gift-finding a breeze!
